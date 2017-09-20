@@ -1,0 +1,33 @@
+{
+    "name": "frqnck/fast-format",
+    "description": "Fast and simple string formater/templater engine. Provides named and nested substutions. Extendable.",
+    "type": "library",
+    "keywords": ["format", "sprintf", "template", "apix"],
+    "homepage": "https://github.com/frqnck/fast-format",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Franck Cassedanne",
+            "email": "franck@ouarz.net"
+        }
+    ],
+    "support": {
+        "irc": "irc://irc.freenode.org/ouarz"
+    },
+    "require": {
+        "php": ">=5.3",
+        "psr/log": "^1.0"
+    },
+    "require-dev": {
+        "apix/log": "^1.2",
+        "apix/cache": "^1.2"
+    },
+    "autoload": {
+        "psr-4": { "Apix\\String\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Apix\\String\\": "tests/" }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
